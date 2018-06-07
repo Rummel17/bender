@@ -2,6 +2,7 @@ body, html {
   box-sizing: border-box;
   font-size: 16px ;
   font-family:'Roboto', sans-serif;
+  max-width: 1980px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -71,7 +72,7 @@ p {
 header {
   z-index: 10;
   box-shadow: rgba(29, 29, 29, 0.1) 0px 2px 2px 0px;
-  padding: 15px 0px 10px 20px;
+  padding: 15px 0px 20px 20px;
   position: fixed;
   width: 100%;
   background-color: white;
@@ -79,17 +80,26 @@ header {
 
 #logo {
   max-width: 500px;
-  height: 60px;
   overflow: hidden;
+  height: auto;
+  transition: all 0.3s ease-in-out;
 }
 
-#logo img{
+.shrink {
+  padding-bottom: 15px;
+}
+
+.logo{
   width: 100%;
   height: auto;
   display: block;
+  transition: all 0.3s ease-in-out;
 }
 
+.logo__small{
+  width: 75%;
 
+}
 
 
 /*hero*/
@@ -119,8 +129,8 @@ header {
   grid-gap: 30px 30px;
   grid-template-columns: 6fr 12fr;
   margin: 20px auto;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 100px;
+  margin-left: 100px;
   background-color: #f9f9f9;
   padding: 30px;
 }
@@ -149,8 +159,8 @@ header {
 /*map section*/
 
 #map {
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   height: 400px;
 }
 
