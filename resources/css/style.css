@@ -15,9 +15,9 @@ body, html {
   --yellowDark: rgba(255, 198, 0 , 1);
   --yellowLight: rgba(255, 198, 0 , 0.7);
   --yellowFont: rgba(255, 198, 0 , 1);
-  --blue: rgba(0 , 115, 172);
+  --blue: rgba(0 , 115, 172, 1);
   --blueHover: rgba(0 , 115, 172, 0.85);
-  --footer: rgba(17, 50, 75);
+  --footer: rgba(17, 50, 75, 1);
 }
 
 h1, h2{
