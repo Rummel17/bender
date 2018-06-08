@@ -28,11 +28,10 @@
         padding-left: 0px;
       }
 
-
-
       .box {
-        background-color: #f6f6f6;
+        background-color:#f9f9f9;;
         padding: 0;
+        box-shadow: none;
       }
 
       button {
