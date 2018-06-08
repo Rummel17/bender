@@ -192,7 +192,8 @@ header {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
-and (orientation : landscape){
+and (orientation : landscape)
+and (orientation : portrait){
 .banner {
   background-attachment: local;
 }
