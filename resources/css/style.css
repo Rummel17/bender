@@ -176,7 +176,7 @@ header {
 
 /*hero*/
 .banner {
-  background-image: url("../images/banner.jpg"); /* to get the path right, you need to think where you are first, you are in the css folder*/
+  background-image: url("../images/banner_small.jpg"); /* to get the path right, you need to think where you are first, you are in the css folder*/
   background-repeat: no-repeat;
   background-size: cover;/*this is what scales the image*/
   background-position: center;
