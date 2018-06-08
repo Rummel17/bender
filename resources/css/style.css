@@ -193,8 +193,7 @@ header {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape){
-.container-fluid__banner {
-  background-position: center;
+.banner {
   background-attachment: local;
 }
 }
@@ -217,7 +216,7 @@ and (orientation : landscape){
 .main-wrapper {
   display: grid;
   grid-gap: 60px 40px;
-  grid-template-columns: 7fr 12fr;
+  grid-template-columns: 7fr 11fr;
   margin: 0px 10rem 0px 10rem;
   padding: 60px 0px 60px 0px;
 }
@@ -230,7 +229,8 @@ and (orientation : landscape){
   border-radius: 2px 2px 2px 2px;
   border-right: 3px solid var(--yellowDark);
   padding: 20px 20px;
-  background-color: #f6f6f6;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0 , 0.2);
 }
 
 .main img {
