@@ -1,0 +1,64 @@
+/* Portrait small tablets and phones/phalets landscape max767 */
+
+@media all and (min-width: 601px) and (max-width: 767px) {
+
+
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    h2. {
+      font-size: 1.35rem;
+    }
+
+    .main {
+      background-color: white;
+      padding: 0px 10px 0px 10px;
+    }
+
+    .main p {
+      font-size: .925rem;
+    }
+    .main-wrapper{
+      grid-template-columns: 3fr 4fr;
+      grid-gap: 50px 30px;;
+      margin: 0px;
+    }
+
+    .banner {
+      padding-left: 0px;
+    }
+
+    .hero {
+      width:75%;
+    }
+
+    .box {
+      background-color: white;
+      padding: 0;
+    }
+
+    button {
+      padding: 10px;
+    }
+
+    #logo{
+      max-width: 400px;
+    }
+
+    .navbar {
+      display: none;
+    }
+
+    .address {
+      color: var(--blue);
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.5rem;
+      width: 400px;
+    }
+    }

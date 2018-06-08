@@ -1,0 +1,55 @@
+/* Portrait phalet and phones landscape max600 */
+
+@media all and (min-width: 470px) and (max-width: 600px) {
+
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .main {
+    background-color: white;
+  }
+  .main-wrapper{
+    grid-template-columns: 1fr;
+    grid-gap: 70px;
+    margin: 0px;
+  }
+  .button, .main-wrapper{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .banner {
+    padding-left: 0px;
+  }
+
+  .hero {
+    width:75%;
+  }
+
+  .box {
+    background-color: white;
+    padding: 0;
+  }
+
+  #logo{
+    max-width: 400px;
+  }
+
+  .navbar, img.main-image__hide {
+    display: none;
+  }
+
+  .address {
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    width: 400px;
+  }
+  }

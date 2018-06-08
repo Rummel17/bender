@@ -1,0 +1,55 @@
+/* Portrait phones max470 */
+
+@media all and (max-width: 470px) {
+
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.925rem;
+}
+.main {
+  background-color: white;
+}
+.main-wrapper{
+  grid-template-columns: 1fr;
+  grid-gap: 70px;
+  margin: 0px;
+}
+.button, .main-wrapper{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner {
+  padding-left: 0px;
+}
+
+.hero {
+  width:90%;
+}
+
+.box {
+  background-color: white;
+  padding: 0;
+}
+
+#logo{
+  max-width: 280px;
+}
+.logo__small {
+  width: 100%;
+}
+.navbar, img.main-image__hide {
+  display: none;
+}
+
+.address {
+  color: var(--blue);
+  font-size: .825rem;
+  font-weight: 300;
+  line-height: 1rem;
+  width: 200px;
+}
+}

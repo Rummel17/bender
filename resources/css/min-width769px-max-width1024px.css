@@ -1,0 +1,50 @@
+/* tablets portrait view*/
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+
+
+      h1 {
+        font-size: 1.75rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      h2. {
+        font-size: 1.35rem;
+      }
+
+      .main p {
+        font-size: .925rem;
+      }
+      .main-wrapper{
+        grid-template-columns: 3fr 4fr;
+        grid-gap: 50px 30px;;
+        margin: 0px 5rem 0px 3rem;
+      }
+
+      .banner {
+        padding-left: 0px;
+      }
+
+
+
+      .box {
+        background-color: #f6f6f6;
+        padding: 0;
+      }
+
+      button {
+        padding: 10px;
+      }
+
+
+      .address {
+        color: var(--blue);
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+        width: 400px;
+      }
+      }

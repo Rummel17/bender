@@ -18,7 +18,7 @@
         }, function(place, status) {
           if (status === google.maps.places.PlacesServiceStatus.OK) {
             // The marker, positioned at St.Ingbert
-      
+
             var marker = new google.maps.Marker({
               map: map,
               position: ingbert,
@@ -27,7 +27,7 @@
             google.maps.event.addListener(marker, 'click', function() {
               infowindow.setContent('<div class="address"><strong>' + place.name + //'</strong><br>' +
                 //'Place ID: ' + place.place_id +
-                '<br>' +
+                '</br>' +
                 place.formatted_address + '</div>');
               infowindow.open(map, this);
             });
