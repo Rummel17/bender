@@ -15,7 +15,7 @@ body, html {
   --yellowDark: rgba(255, 198, 0 , 1);
   --yellowLight: rgba(255, 198, 0 , 0.7);
   --yellowFont: rgba(255, 198, 0 , 1);
-  --blue: rgba(0 , 115, 172, 1);
+  --blue: rgba(0 , 115, 172, 1);/* 1=important, if left out ipad will default a to 0 opacity, thus not showing the color at all*/
   --blueHover: rgba(0 , 115, 172, 0.85);
   --footer: rgba(17, 50, 75, 1);
 }
@@ -179,13 +179,24 @@ header {
   background-image: url("../images/banner.jpg"); /* to get the path right, you need to think where you are first, you are in the css folder*/
   background-repeat: no-repeat;
   background-size: cover;/*this is what scales the image*/
-  background-position: 0% 100%;
+  background-position: center;
   background-attachment: fixed;
   height: 550px;
   display: flex;
   align-items: center;
   justify-items: center;
   padding-left: 50px;
+}
+
+/* media query for ipads fix for background-attachment */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape){
+.container-fluid__banner {
+  background-position: center;
+  background-attachment: local;
+}
 }
 
 .hero {
