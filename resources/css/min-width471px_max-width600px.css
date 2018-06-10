@@ -45,7 +45,7 @@
     max-width: 400px;
   }
 
-  .navbar, img.main-image__hide {
+  .navbar, img.main-image__hide, .image-container {
     display: none;
   }
   footer .footer-content {
