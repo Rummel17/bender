@@ -11,6 +11,10 @@
     font-size: 1rem;
   }
 
+  #cars {
+    display: none;
+  }
+
   .main {
     background-color: white;
   }

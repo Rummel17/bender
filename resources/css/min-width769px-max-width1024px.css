@@ -15,6 +15,10 @@
         font-size: 1.35rem;
       }
 
+      #cars {
+        display: none;
+      }
+
       .main p {
         font-size: .925rem;
       }

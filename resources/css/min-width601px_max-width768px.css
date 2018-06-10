@@ -14,7 +14,9 @@
     h2. {
       font-size: 1.35rem;
     }
-
+    #cars {
+      display: none;
+    }
     .main {
       background-color: white;
       padding: 0px 10px 0px 10px;

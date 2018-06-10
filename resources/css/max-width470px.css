@@ -9,6 +9,10 @@ h1 {
 p {
   font-size: 0.925rem;
 }
+
+#cars {
+  display: none;
+}
 .main {
   background-color: white;
 }
