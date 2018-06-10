@@ -144,10 +144,13 @@ nav.navbar ul li:hover {
 header {
   z-index: 10;
   box-shadow: rgba(29, 29, 29, 0.1) 0px 2px 2px 0px;
-  padding: 15px 0px 20px 20px;
+  padding: 15px 20px 20px 20px;
   position: fixed;
   width: 100%;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #logo {
@@ -161,14 +164,14 @@ header {
   padding-bottom: 15px;
 }
 
-.logo{
+.logo, .cars-image{
   width: 100%;
   height: auto;
   display: block;
   transition: all 0.3s ease-in-out;
 }
 
-.logo__small{
+.logo__small, .cars-image__small{
   width: 75%;
 
 }
@@ -299,8 +302,76 @@ button {
 /*footer*/
 
 footer {
-  border-top: 3px solid var(--blue);
   background-color: var(--footer);
-  height: 200px;
+  padding: 20px;
+}
+footer .footer-content {
+  margin-top: 10px;
+  max-width: 900px;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.recht {
+  z-index: 1;
+}
+
+footer ul, footer p ,footer ul li a, footer .kontakt-folgen {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: .9rem;
+}
+
+li.recht-Online-Streitschlichtungsplattform sup {
+  font-size: 0.625rem;
+}
+
+footer .kontakt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.kontakt-folgen {
+  width: 100%;
+}
+li.kontakt-icons a span {
+    padding: 0;
+}
+
+
+li.kontakt-icons i.fa-facebook-square {
+  font-size: 2.2rem;
+  margin-right: 20px;
+}
+li.kontakt-icons i.fa-envelope-open {
+  font-size: 2rem;
+}
+
+footer ul li a:hover {
+  color:var(--yellowDark);
+}
+
+
+footer p, footer span {
+  grid-column: 1 / -1;
+  font-size: 0.7rem;
+  letter-spacing: 0.25px;
+  padding: 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #e0e0e0;
+  font-weight: 300;
+}
+
+p.copyright {
+  padding-top: 10px;
+  color: #e0e0e0;
+}
+
+
+hr {
+  border: 0.5px solid var(--yellowDark);
 }

@@ -44,12 +44,10 @@
   .navbar, img.main-image__hide {
     display: none;
   }
-
-  .address {
-    color: var(--blue);
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5rem;
-    width: 400px;
+  footer .footer-content {
+    grid-template-columns: 1fr;
+  }
+  ul.kontakt li.kontakt-icons {
+    margin-top: 10px;
   }
   }

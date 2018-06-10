@@ -45,11 +45,12 @@ p {
   display: none;
 }
 
-.address {
-  color: var(--blue);
-  font-size: .825rem;
-  font-weight: 300;
-  line-height: 1rem;
-  width: 200px;
+footer .footer-content {
+  grid-template-columns: 1fr;
 }
+ul.kontakt li.kontakt-icons {
+  margin-top: 10px;
+}
+
+
 }
