@@ -45,7 +45,7 @@ p {
 .logo__small {
   width: 100%;
 }
-.navbar, img.main-image__hide {
+.navbar, img.main-image__hide, .image-container {
   display: none;
 }
 
