@@ -41,13 +41,4 @@
       button {
         padding: 10px;
       }
-
-
-      .address {
-        color: var(--blue);
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        width: 400px;
-      }
       }

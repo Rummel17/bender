@@ -211,7 +211,8 @@ and (max-device-width : 1024px){
 
 .main {
   background-color: #f9f9f9;
-  border-top: 5px solid var(--yellowDark);
+  border-top: 3px solid var(--yellowDark);
+  max-width: 1200px;
   /* border-bottom: 20px solid var(--yellow); */
 }
 
@@ -297,7 +298,7 @@ button {
 
 /*map section*/
 .map {
-  border-bottom: 5px solid var(--yellowDark);
+  border-bottom: 3px solid var(--yellowDark);
 }
 
 #map {
