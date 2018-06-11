@@ -212,11 +212,11 @@ and (max-device-width : 1024px){
 .main {
   background-color: #f9f9f9;
   border-top: 3px solid var(--yellowDark);
-  max-width: 1200px;
   /* border-bottom: 20px solid var(--yellow); */
 }
 
 .main-wrapper {
+  max-width: 1200px;
   display: grid;
   grid-gap: 60px 40px;
   grid-template-columns: 7fr 11fr;
