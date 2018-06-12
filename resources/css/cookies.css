@@ -7,41 +7,10 @@ body, html {
 :root {
   --footer: rgba(17, 50, 75, 1);
   --yellowDark: rgba(255, 198, 0 , 1);
-  --yellowDarkOpacity: rgba(255, 198, 0 , 0.92);
+  --yellowHover:  #f6a21d;
   --blue: rgba(0 , 115, 172, 1)
 }
 
-@font-face {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(font/Roboto-Light.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url(font/Roboto-Regular.ttf) format('truetype')
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  src: local('Roboto Medium'), local('Roboto-Medium'), url(font/Roboto-Medium.ttf) format('truetype')
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(font/Roboto-Bold.ttf) format('truetype')
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
 .clearfix {
 	clear: both;
 }
@@ -56,6 +25,12 @@ body, html {
 	z-index: 9999999;
   border-top: 3px solid var(--yellowDark);
   text-align: center;
+}
+
+.pacman {
+  position: fixed;
+  bottom: 0;
+  left: 10%
 }
 
 .eupopup-container-top,
@@ -89,13 +64,13 @@ body, html {
 
 .eupopup-closebutton {
 	font-size: 1.625rem;
-	font-weight: 300;
-	color: #ffffff;
+	font-weight: 400;
+	color: var(--yellowDark);
 	position: absolute;
 	font-family: helvetica, arial, verdana, sans-serif;
 	top: 0; right: 0;
-	padding: 5px 10px;
-  border: 3px solid white;
+	padding: 2px 10px 5px 10px;
+  border: 3px solid var(--yellowDark);
   border-radius: 50px;
   margin: 10px;
 }
@@ -103,8 +78,8 @@ a.eupopup-closebutton:link {
   text-decoration: none;
 }
 a.eupopup-closebutton:hover{
-  color: var(--yellowDark);
-  border: 3px solid var(--yellowDark);
+  color: var(--yellowHover);
+  border: 3px solid var(--yellowHover);
 }
 
 .eupopup-closebutton:hover,
@@ -133,6 +108,10 @@ a.eupopup-closebutton:hover{
   text-decoration: none;
 }
 
+.eupopup-body a:hover {
+  color: var(--yellowHover);
+}
+
 .eupopup-buttons {
 	padding: 20px 0 20px 0;
   font-size: 1rem;
@@ -152,7 +131,7 @@ a.eupopup-closebutton:hover{
 }
 
 a.eupopup-button.eupopup-button_1:hover {
-  background-color: var(--yellowDarkOpacity);
+  background-color: var(--yellowHover);
   color:white;
 }
 
@@ -168,7 +147,7 @@ a.eupopup-button.eupopup-button_1:hover {
 .eupopup-button:hover,
 .eupopup-button:focus {
 	text-decoration: underline;
-	color: #f6a21d;
+	color: var(--yellowHover);
 }
 
 body .eupopup-color-inverse {
