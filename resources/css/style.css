@@ -258,7 +258,7 @@ and (max-device-width : 768px){
 
 }
 .logo-box a {
-  margin-left: 30px;
+margin-left: 30px;
 }
 
 .renault-logo {
@@ -274,8 +274,11 @@ and (max-device-width : 768px){
 div.aktuelle-angebote, div.renault-bedienung {
   grid-column: 1 / -1;
   text-align: center;
-  margin-top: 40px;
-  width: 1000px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 40px 10rem 0px 10rem;
+  padding: 0px 0px 10px 0px;
 }
 
 div.aktuelle-angebote {
@@ -285,7 +288,7 @@ div.aktuelle-angebote {
 }
 
 div.renault-bedienung {
-  margin-top: 80px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -437,10 +440,12 @@ li.kontakt-icons i.fa-facebook-square {
   font-size: 2.2rem;
   margin-right: 20px;
   transition: all 0.2s ease-in-out;
+
 }
 li.kontakt-icons i.fa-envelope-open {
   font-size: 2rem;
   transition: all 0.2s ease-in-out;
+
 }
 
 footer ul li a:hover {

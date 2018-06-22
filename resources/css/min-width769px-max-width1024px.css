@@ -19,21 +19,26 @@
         display: none;
       }
 
+      div.aktuelle-angebote, div.renault-bedienung {
+        grid-column: 1 / -1;
+        text-align: center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 40px 10rem 0px 10rem;
+        padding: 0px 0px 10px 0px;
+      }
+
       .main p {
         font-size: .925rem;
       }
-      .main-wrapper{
-        grid-template-columns: 3fr 4fr;
-        grid-gap: 50px 30px;;
-        margin: 0px 5rem 0px 3rem;
-      }
+
 
       .banner {
         padding-left: 0px;
       }
 
       .box {
-        background-color:#f9f9f9;;
         padding: 0;
         box-shadow: none;
       }
@@ -41,4 +46,9 @@
       button {
         padding: 10px;
       }
+      footer .footer-content {
+        grid-template-columns: 1fr 1fr;
+      }
+      ul.kontakt li.kontakt-icons {
+        margin-top: 10px;
       }
