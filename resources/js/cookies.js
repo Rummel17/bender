@@ -255,7 +255,7 @@ $(document).ready( function() {
 		$(document).euCookieLawPopup().init({
 			'info' : 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
 			'popupTitle' : 'Diese Seite nutzt Cookies! &nbsp;',
-			'popupText' : ' Wenn Sie mehr über Cookies auf dieser Seite erfahren möchten klicken Sie <a href="resources/html/cookies.html">hier</a>. Informationen zum Datenschutz finden Sie <a href="resources/html/datenschutz.html">hier</a>.</br>Wenn Sie einfach unsere Seite weiter Nutzen gehen wir davon aus, dass Sie dem Einsatz der Cookies zustimmen!.'
+			'popupText' : ' Wenn Sie mehr über Cookies auf dieser Seite erfahren möchten klicken Sie <a href="resources/html/cookies.html">hier</a>. Informationen zum Datenschutz finden Sie <a href="resources/html/datenschutz.html">hier</a>.</br>Wenn Sie einfach unsere Seite weiter Nutzen gehen wir davon aus, dass Sie dem Einsatz der Cookies zustimmen!'
 		});
 	}
 });
