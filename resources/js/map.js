@@ -28,7 +28,7 @@
               infowindow.setContent('<div class="address"><strong>' + place.name + //'</strong><br>' +
                 //'Place ID: ' + place.place_id +
                 '</br>' +
-                place.formatted_address + '</div>');
+                place.adr_address + '</br>' + place.international_phone_number +'</div>');
               infowindow.open(map, this);
             });
           }
