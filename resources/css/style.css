@@ -19,6 +19,7 @@ body, html {
   --blue: rgba(0 , 115, 172, 1);/* 1=important, if left out ipad will default a to 0 opacity, thus not showing the color at all*/
   --blueHover: rgba(0 , 115, 172, 0.85);
   --footer: rgba(17, 50, 75, 1);
+  --footerOpacity: rgba(17, 50, 75, 0.8);
 }
 
 h1, h2{
@@ -169,13 +170,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 120px;
+  overflow: hidden;
 }
 
 #logo {
-  max-width: 350px;
+  max-width: 450px;
   overflow: hidden;
   height: auto;
   transition: all 0.3s ease-in-out;
+}
+
+#cars {
+  max-width: 400px;
 }
 
 .shrink {
@@ -226,9 +233,33 @@ and (max-device-width : 768px){
 
 .hero {
   background-color: var(--yellow);
-  width: 450px;
+  width: 350px;
+  height: 300px;
   border-radius: 2px 2px 2px 2px;
   padding: 10px;
+  margin-top: 50px;
+}
+
+.hero2 {
+  background-color: var(--blueHover);
+  border-top: 20px solid var(--footerOpacity);
+  border-bottom: 20px solid var(--footerOpacity);
+  width: 350px;
+  height: 300px;
+  border-radius: 2px 2px 2px 2px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.hero2 ul, .hero2 h2 {
+  color:#e0e0e0;
+}
+.hero2 li {
+  margin: 7px 0px;
 }
 
 /*main section*/
