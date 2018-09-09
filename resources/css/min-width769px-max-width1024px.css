@@ -15,19 +15,10 @@
         font-size: 1.35rem;
       }
 
-      #cars {
+      #phonenumber, #cars {
         display: none;
       }
 
-      div.aktuelle-angebote, div.renault-bedienung {
-        grid-column: 1 / -1;
-        text-align: center;
-        max-width: 100%;
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 40px 10rem 0px 10rem;
-        padding: 0px 0px 20px 0px;
-      }
 
       .main p {
         font-size: .925rem;
@@ -42,6 +33,13 @@
         padding: 0;
         box-shadow: none;
       }
+
+.map-contact {
+
+}
+.map-contact a.schreiben {
+  text-align: center;
+}
 
       button {
         padding: 10px;
