@@ -5,6 +5,9 @@
 h1 {
   font-size: 1.5rem;
 }
+h2 {
+  font-size: 1.35rem;
+}
 
 p {
   font-size: 0.925rem;
@@ -44,6 +47,23 @@ div.button{
   width:90%;
 }
 
+.box {
+  max-width: 90%;
+  min-width: 90%;
+}
+
+div.box {
+  grid-column: 1 / -1;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 40px 1rem 0px 1rem;
+  padding: 0px 0px 10px 0px;
+  background-color: #f9f9f9;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--yellowDark);
+  padding: 0px 30px 30px 30px;
+}
 
 #logo{
   max-width: 280px;
