@@ -16,6 +16,8 @@ body, html {
   --yellowLight: rgba(255, 198, 0 , 0.7);
   --yellowHover: #f6a21d;
   --yellowFont: rgba(255, 198, 0 , 1);
+  --orange: rgba(242, 100, 25, 0.9);
+  --orangeHover: rgba(220, 91, 23);
   --blue: rgba(0 , 115, 172, 1);/* 1=important, if left out ipad will default a to 0 opacity, thus not showing the color at all*/
   --blueHover: rgba(0 , 115, 172, 0.85);
   --footer: rgba(17, 50, 75, 1);
@@ -64,6 +66,10 @@ p {
 
 .box p {
   color: #555;
+}
+
+.yellow--color {
+  color: var(--yellowDark);
 }
 
 @font-face {
@@ -370,6 +376,14 @@ button{
 
 .yellow{
   background-color: var(--yellowDark);
+}
+
+.orange {
+  background-color: var(--orange);
+}
+
+a:hover .orange {
+  background-color: var(--orangeHover);
 }
 
 .blue{
