@@ -91,22 +91,27 @@ a.eupopup-closebutton:hover{
 
 
 .eupopup-head {
-	font-size: 1.25rem;
-	font-weight: 400;
+	font-size: 1.35rem;
+	font-weight: 500;
   padding: 10px;
 	color: #e0e0e0;
 }
 
 .eupopup-body {
-	color: #e0e0e0;
-  font-weight: 300;
-  font-size: 1rem;
+	color:rgba(224,224,224, 0.9);
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  letter-spacing: -.5px;
 }
 
+.eupopup-body a {
+  color:var(--yellowDark);
+}
 .eupopup-body a:link {
   color: var(--yellowDark);
-  font-size: 1rem;
-  text-decoration: none;
+  font-size: 1.125rem;
+  text-decoration: underline;
 }
 
 .eupopup-body a:hover {
@@ -114,9 +119,10 @@ a.eupopup-closebutton:hover{
   transition: all 0.2s ease-in-out;
 }
 
+
 .eupopup-buttons {
 	padding: 20px 0 20px 0;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 400;
 
 }
@@ -140,7 +146,7 @@ a.eupopup-button.eupopup-button_1:hover {
 
 .eupopup-button_2 {
 	color: var(--yellowDark);
-	font-weight: 300;
+	font-weight: 400;
   transition: all 0.2s ease-in-out;
 }
 
