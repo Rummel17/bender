@@ -1,6 +1,6 @@
 body, html {
   box-sizing: border-box;
-  font-size: 16px ;
+  font-size: 20px ;
   font-family:'Roboto', sans-serif;
 }
 *, *:before, *:after {
@@ -39,7 +39,7 @@ h1.hero-font {
 
 h2{
   color: var(--yellowDark);
-  font-size: 1.75rem;
+  font-size: 2.75rem;
   padding-top: 0px;
 }
 h2.h2__blue {
@@ -57,15 +57,25 @@ h2.renault-bedienung{
 }
 
 p {
-  font-size: 1rem;
-  color: #111;
+  font-size: 1.25rem;
+  color: rgba(70,73,76, 1);
   padding: 10px;
-  line-height: 1.5rem;
+  line-height: 2rem;
   letter-spacing: -0.5px;
 }
 
 .box p {
-  color: #555;
+    color: rgba(70,73,76, 0.8);
+}
+
+footer li, footer ul li {
+  font-weight: 400;
+  font-size: .9rem;
+  color: rgba(224, 224, 224, 0.9);
+}
+
+li.headline {
+  font-size: 1.1rem;
 }
 
 .yellow--color {
@@ -362,11 +372,11 @@ div.box {
 }
 
 button{
-  padding: 15px 20px;
+  padding: 15px 25px;
   color: white;
-  font-weight: 300;
+  font-weight: 600;
   border-radius: 50px;
-  font-size: 1rem;
+  font-size: 1.25rem;
   border: none;
   display: flex;
   align-items: center;
@@ -431,13 +441,13 @@ color: #f9f9f9;
 .map-contact p {
   color: #f9f9f9;
   letter-spacing: .5px;
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 .map-contact span {
-  font-weight: 100;
-  font-size: .85rem;
-  letter-spacing: .8px;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: -0.5px;
   color: #f9f9f9;
 }
 .map-contact a {
@@ -493,9 +503,10 @@ footer .footer-content {
 }
 
 footer ul, footer p ,footer ul li a {
-  color: #e0e0e0;
+
+  color: rgba(224, 224, 224, 0.9);
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   font-size: .9rem;
   transition: all 0.125s ease-in-out;
@@ -550,7 +561,7 @@ li.headline, .footer-address__style, .garantiebedingungen-list{
 
 footer p {
   grid-column: 1 / -1;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   letter-spacing: 0.25px;
   padding: 0;
   padding-top: 40px;
