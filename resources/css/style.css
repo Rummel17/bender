@@ -376,12 +376,13 @@ button{
   color: white;
   font-weight: 600;
   border-radius: 50px;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   border: none;
   display: flex;
   align-items: center;
   margin: 10px 10px 0px 10px;
   transition: all 0.1s ease-in-out;
+  letter-spacing: -1px;
 }
 
 .yellow{
@@ -429,8 +430,16 @@ a:hover .blue {
 background-color: var(--yellowDark);
 width: 100%;
 display: flex;
-justify-content: center;
+flex-flow: row;
+justify-content: space-around;
 color: #fafafa;
+}
+
+.map-contact>div, .map-contact>a {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .fas.fa-phone.map-contact-phone {
@@ -447,23 +456,18 @@ color: #fafafa;
 .map-contact span {
   font-weight: 500;
   font-size: 1rem;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.1px;
   color: #fafafa;
 }
 .map-contact a {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
   width: 25%;
   padding: 1.85rem 0rem;
   text-decoration: none;
   color: #f9f9f9;
   letter-spacing: .5px;
+  text-align: center;
 }
 .map-contact div {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
   width: 25%;
   padding: 1.85rem 0rem;
 }

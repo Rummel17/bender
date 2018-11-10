@@ -2,15 +2,18 @@
 
 @media all and (max-width: 470px) {
 
-h1 {
-  font-size: 1.5rem;
+h1.hero-font {
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
 h2 {
-  font-size: 1.35rem;
+  font-size: 1.85rem;
+  line-height: 1.3;
 }
 
 p {
-  font-size: 0.925rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
 }
 
 #phonenumber {
@@ -32,11 +35,6 @@ p {
 
 header {
  height: 80px;
-}
-
-div.button{
-  display: flex;
-  flex-flow: column;
 }
 
 .banner {
@@ -83,6 +81,19 @@ footer .footer-content {
 ul.kontakt li.kontakt-icons {
   margin-top: 10px;
 }
+
+
+div.button{
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+button {
+  font-size: 1rem;
+}
+
+
 
 
 }
