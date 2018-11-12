@@ -64,6 +64,22 @@ p {
   letter-spacing: -0.5px;
 }
 
+a.link  {
+  color:rgba(70,73,76, 1);
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-bottom: solid var(--yellow) 2px;
+}
+
+a:link{
+
+  text-decoration: none;
+}
+a.link:hover {
+   color: var(--yellowDark);
+   -webkit-transition: all 150ms linear 0ms;transition: all 150ms linear 0ms;
+ }
+
 .box p {
     color: rgba(70,73,76, 0.8);
 }
@@ -183,7 +199,9 @@ nav.navbar ul li:hover {
 /*header*/
 header {
   z-index: 10;
-  box-shadow: rgba(29, 29, 29, 0.1) 0px 2px 2px 0px;
+  position: fixed;
+  top: 0%;
+  box-shadow: #555555 1px 0px 20px;
   padding: 15px 20px 20px 20px;
   width: 100%;
   background-color: white;
@@ -192,7 +210,7 @@ header {
   justify-content: space-between;
   height: 120px;
   overflow: hidden;
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #fafafa;
 }
 
 header {
