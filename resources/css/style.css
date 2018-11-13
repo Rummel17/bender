@@ -209,15 +209,16 @@ header {
   width: 100%;
   background-color: white;
   display: flex;
-  align-items: center;
+  flex-flow: row;
   justify-content: space-between;
-  height: 120px;
+  align-items: center;
+  height: 100px;
   overflow: hidden;
   border-bottom: 1px solid #fafafa;
 }
 
 .offset__header {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 #logo {
@@ -228,13 +229,14 @@ header {
 }
 
 #cars {
-  max-width: 350px;
+  max-width: 330px;
 }
 #phonenumber{
   display: flex;
-  align-items: center;
-  margin-top: 1.5rem;
-  margin-right: 2rem;
+  flex-flow: row;
+  height: 100%;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
 }
 
 .shrink {
@@ -254,6 +256,8 @@ header {
 .phonenumber-fontsize{
   font-size: 2rem;
   color: #555;
+  margin: 0rem 0 -.25rem 1rem;
+  padding: 0;
 }
 .fa-phone {
   font-size: 1.5rem;

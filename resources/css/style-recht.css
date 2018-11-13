@@ -26,6 +26,10 @@
   padding: 1.2rem;
   border-radius: 4px;
 }
+.grid-item2 {
+margin-bottom: 1rem;
+}
+
 .grid-item3 {
   grid-column: 1 /-1;
 }
@@ -87,7 +91,7 @@ address.impressum{
   font-weight: 600;
   letter-spacing: 0.01px;
 }
-.grid-container0 a:link, .grid-item a{
+.grid-item3 a:link {
   border-bottom: solid var(--yellow) 2px;
   text-decoration: none;
 }
