@@ -1,65 +1,6 @@
-
-
-.main-impressum, .main-datenschutz {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  padding-top: 20px;
-
-  /* border-bottom: 20px solid var(--yellow); */
-}
-
-.main-impressum p, .main-datenschutz p, .main-datenschutz li{
-  margin: 0;
-  padding: 0;
-  text-align: justify;
-}
-
-.main-datenschutz ul {
-  list-style: none;
-  margin: 20px 0px;
-
-}
-
-
-.main-datenschutz li {
-  color: #555;
-  padding: 5px;
-  line-height: 1.25rem;
-}
-
-.main-impressum h2, .main-datenschutz h2{
-  color: var(--yellowDark);
-  font-size: 1.75rem;
-  margin: 0px 0px 20px 0px;
-  padding: 0px;
-}
-
-.main-datenschutz h4 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  padding: 10px 0px;
-  color: var(--blue);
-}
-
-.main-wrapper-impressum, .main-wrapper-datenschutz{
-  max-width: 750px;
-  margin: 10rem 10rem 0px 10rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  padding-left: 40px;
-  border-left: 3px solid var(--yellowDark);
-}
-
-
-/* cookie section: two grids main and container
-main to align
-container to individulize */
-
 .grid-main-container {
-  margin: 11rem auto 3rem auto;
-  padding: 0 0 0 2rem;
+  margin: 150px auto 3rem auto;
+  padding: 0 2rem 0 2rem;
   max-width: 750px;
   display: grid;
   grid-template-columns: 1fr;
@@ -69,7 +10,7 @@ container to individulize */
 .grid-container, .grid-container0 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap:40px 20px;
+  grid-gap:20px 20px;
   justify-content: center;
 }
 .grid-container0 {
@@ -102,18 +43,37 @@ container to individulize */
 .grid-item h2 {
   padding: 0rem 0rem 1rem 0rem;
   font-size: 2rem;
-  line-height: 150%;
+  line-height: 130%;
 }
 .adjust__marginTop {
-  margin-top: -.7rem;
+  margin-top: -.55rem;
 }
 .grid-item p {
   text-align: justify;
   padding: 0 0 1rem 0;
 }
 
+address.impressum p {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+address.impressum{
+  margin: 1rem 0;
+}
+
 .grid-item h5 {
   padding: 1rem;
+}
+
+.grid-item ul li ul {
+  margin: 0 0 2rem 1.25rem;
+}
+
+.grid-item ul li ul li {
+  font-size: 1rem;
+  line-height: 2.2;
+  color: rgba(70,73,76, 0.9);
+  list-style: disc;
 }
 
 .grid-container a,  .grid-item a{
@@ -125,6 +85,7 @@ container to individulize */
   color: rgba(70,73,76, 1);
   font-size: 1.1rem;
   font-weight: 600;
+  letter-spacing: 0.01px;
 }
 .grid-container a:link, .grid-item a{
   border-bottom: solid var(--yellow) 2px;
@@ -132,7 +93,7 @@ container to individulize */
 }
  .grid-item a:hover {
    color: var(--yellowDark);
-   -webkit-transition: all 150ms linear 0ms;transition: all 150ms linear 0ms;
+   -webkit-transition: all 100ms linear 0ms;transition: all 100ms linear 0ms;
  }
 a:hover .grid-item1, a:hover .grid-item2 {
   text-decoration: none;
