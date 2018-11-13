@@ -46,7 +46,7 @@ margin-bottom: 1rem;
 
 .grid-item h2 {
   padding: 0rem 0rem 1rem 0rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 130%;
 }
 .adjust__marginTop {
@@ -91,7 +91,7 @@ address.impressum{
   font-weight: 600;
   letter-spacing: 0.01px;
 }
-.grid-item3 a:link {
+.grid-item3 a:link, .grid-item3 a:visited {
   border-bottom: solid var(--yellow) 2px;
   text-decoration: none;
 }
