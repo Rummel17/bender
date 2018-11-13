@@ -1,0 +1,12 @@
+header, section, footer{
+  display: none;
+}
+
+h2.hideBrowser {
+  display: block;
+  text-align: center;
+  color: red);
+  font-size: 5rem;
+  line-height: 200%;
+
+}

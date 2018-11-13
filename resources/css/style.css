@@ -8,6 +8,7 @@ body, html {
 }
 
 
+
 /* Fonts & Colors */
 
 :root {
@@ -23,6 +24,29 @@ body, html {
   --footer: rgba(17, 50, 75, 1);
   --footerOpacity: rgba(17, 50, 75, 0.8);
 }
+
+/* IE 10+11 users */
+
+h2.hideBrowser {
+  display: none;
+}
+
+@media all and (-ms-high-contrast: none){
+    /* IE10+ CSS */
+  header, section, footer{
+    display: none;
+  }
+
+  h2.hideBrowser {
+    display: block;
+    text-align: center;
+    color: red;
+    font-size: 5rem;
+    line-height: 200%;
+  }
+}
+
+/* IE related End*/
 
 h1, h2{
   font-size: 2rem;
