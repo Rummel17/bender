@@ -87,7 +87,7 @@ address.impressum{
   font-weight: 600;
   letter-spacing: 0.01px;
 }
-.grid-container a:link, .grid-item a{
+.grid-container0 a:link, .grid-item a{
   border-bottom: solid var(--yellow) 2px;
   text-decoration: none;
 }
