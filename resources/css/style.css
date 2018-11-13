@@ -20,7 +20,7 @@ body, html {
   --orange: rgba(242, 100, 25, 0.9);
   --orangeHover: rgba(220, 91, 23);
   --blue: rgba(0 , 115, 172, 1);/* 1=important, if left out ipad will default a to 0 opacity, thus not showing the color at all*/
-  --blueHover: rgba(0 , 115, 172, 0.85);
+  --blueHover: #005f8e;
   --footer: rgba(17, 50, 75, 1);
   --footerOpacity: rgba(17, 50, 75, 0.8);
 }
@@ -95,7 +95,7 @@ a.link  {
   color:rgba(70,73,76, 1);
   font-size: 1.25rem;
   font-weight: 600;
-  border-bottom: solid var(--yellow) 2px;
+  border-bottom: solid var(--yellowDark) 2px;
 }
 
 a:link{
@@ -167,7 +167,7 @@ nav {
 
 nav.navbar ul {
   color: white;
-  font-weight: 300;
+  font-weight: normal;
   display: flex;
   flex-direction: column;
 }
@@ -218,7 +218,7 @@ nav.navbar ul li:hover {
   align-items: center;
   color: #f9f9f9;
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -422,16 +422,16 @@ div.box {
 }
 
 button{
-  padding: 15px 25px;
+  padding: 1rem 25px;
   color: white;
   font-weight: 600;
-  border-radius: 50px;
+  border-radius: 4px;
   font-size: 1.15rem;
   border: none;
   display: flex;
   align-items: center;
   margin: 10px 10px 0px 10px;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.15s ease-in-out;
   letter-spacing: -1px;
 }
 
@@ -445,6 +445,7 @@ button{
 
 a:hover .orange {
   background-color: var(--orangeHover);
+  cursor: pointer;
 }
 
 .blue{

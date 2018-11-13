@@ -15,14 +15,14 @@
 }
 .grid-container0 {
   grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
-  grid-gap:40px 0px;
+  grid-gap:40px 15px;
   margin: 2rem 0rem 0 0;
 }
 
 
 .grid-item1, .grid-item2 {
   text-align: center;
-  background-color: var(--yellow);
+  background-color: var(--yellowDark);
   padding: 1.2rem;
   border-radius: 4px;
 }
@@ -34,13 +34,6 @@ margin-bottom: 1rem;
   grid-column: 1 /-1;
 }
 
-.grid-item4 {
-  border-right: 1px solid #f0f0f0;
-  border-left: 1px solid #f0f0f0;
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
-  background-color:  #f9f9f9;
-}
 
 /* fonts & link*/
 
@@ -65,9 +58,43 @@ address.impressum{
   margin: 1rem 0;
 }
 
-.grid-item h5 {
-  padding: 1rem;
+.grid-item4 {
+
 }
+
+.grid-item4 h5 {
+  background-color:  #f9f9f9;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: .9rem;
+  color: rgba(70,73,76, 0.9);
+  border-bottom: 1px solid var(--yellowDark);
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.grid-item4 p {
+  padding: 0rem 0.5rem;
+  font-size: .9rem;
+  line-height: 1.7;
+  color: rgba(70,73,76, 0.9);
+}
+
+.grid-item4 p.cookieList{
+  margin: 0.7rem 0rem;
+}
+
+.grid-item4 p span {
+  font-weight: 600;
+}
+.grid-item4 p a {
+  font-size: .9rem;
+  font-weight: normal;
+  color: var(--yellowDark);
+}
+.grid-item4 p a:hover {
+  color: var(--blue);
+}
+
 
 .grid-item ul li ul {
   margin: 0 0 2rem 1.25rem;
@@ -92,9 +119,10 @@ address.impressum{
   letter-spacing: 0.01px;
 }
 .grid-item3 a:link, .grid-item3 a:visited {
-  border-bottom: solid var(--yellow) 2px;
+  border-bottom: solid var(--yellowDark) 2px;
   text-decoration: none;
 }
+
  .grid-item a:hover {
    color: var(--yellowDark);
    -webkit-transition: all 100ms linear 0ms;transition: all 100ms linear 0ms;
