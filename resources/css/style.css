@@ -60,8 +60,8 @@ h1.hero-font {
   font-size: 2.1rem;
   line-height: 2.5rem;
 }
-.hero p {
-
+.hero-font p {
+  text-align: left;
 }
 
 h2{
@@ -181,7 +181,7 @@ nav.navbar ul li {
   width: 350px;
   margin-bottom: .75rem;
   background-color: var(--blue);
-  border-radius: 5px;
+  border-radius: 4px;
   padding: .85rem 1rem;
   transition: right 400ms ease-in-out;
 }
@@ -297,7 +297,7 @@ header {
   background-size: cover;/*this is what scales the image*/
   background-position: center;
   background-attachment: fixed;
-  height: 550px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -325,9 +325,9 @@ and (max-device-width : 768px){
   background-color: var(--yellow);
   width: 500px;
   height: auto;
-  border-radius: 2px 2px 2px 2px;
+  border-radius: 4px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: -7rem;
 }
 
 .hero2 {
@@ -403,7 +403,7 @@ div.box {
 .box div.button {
   display: flex;
   justify-content: center;
-  width: 100%;
+  min-width: 100%;
 }
 .abox div.button a:link{
   text-decoration: none;
@@ -422,25 +422,30 @@ div.box {
 }
 
 button{
-  padding: 1rem 25px;
+  padding: 1.125rem 1rem;
   color: white;
   font-weight: 600;
   border-radius: 4px;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   border: none;
   display: flex;
   align-items: center;
   margin: 10px 10px 0px 10px;
   transition: all 0.15s ease-in-out;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
+  min-width: 290px;
 }
 
 .yellow{
   background-color: var(--yellowDark);
+  display: flex;
+  justify-content: center;
 }
 
 .orange {
   background-color: var(--orange);
+  display: flex;
+  justify-content: center;
 }
 
 a:hover .orange {
@@ -450,6 +455,8 @@ a:hover .orange {
 
 .blue{
   background-color: var(--blue);
+  display: flex;
+  justify-content: center;
 }
 
 a:hover .yellow {
@@ -495,18 +502,18 @@ color: #fafafa;
 
 .fas.fa-phone.map-contact-phone {
   color: #fafafa;
-  font-size: 1.85rem;
+  font-size: 2rem;
 }
 
 .map-contact p {
   color: #fafafa;
   letter-spacing: .5px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .map-contact span {
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.25rem;
   letter-spacing: -0.1px;
   color: #fafafa;
 }
@@ -523,7 +530,7 @@ color: #fafafa;
   padding: 1.85rem 0rem;
 }
 .map-contact a i {
-  font-size: 1.85rem;
+  font-size: 2.2rem;
 }
 
 
@@ -624,7 +631,9 @@ footer p {
   color: #e0e0e0;
   font-weight: 300;
 }
-
+footer.footer p {
+  text-align: left;
+}
 p.copyright {
   padding-top: 10px;
   color: #e0e0e0;

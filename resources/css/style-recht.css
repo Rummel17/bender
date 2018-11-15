@@ -39,15 +39,17 @@ margin-bottom: 1rem;
 
 .grid-item h2 {
   padding: 0rem 0rem 1rem 0rem;
-  font-size: 1.8rem;
+  font-size: 1.75rem;
   line-height: 130%;
 }
+
 .adjust__marginTop {
-  margin-top: -.55rem;
+  margin-top: -.5rem;
 }
 .grid-item p {
   text-align: justify;
   padding: 0 0 1rem 0;
+  font-size: 1.125rem;
 }
 
 address.impressum p {
@@ -58,8 +60,17 @@ address.impressum{
   margin: 1rem 0;
 }
 
-.grid-item4 {
+ul.datenschutzList {
+  list-style: disc;
+  margin: 0rem 0rem 1rem 1rem;
+}
 
+ul.datenschutzList li {
+  padding: 0.3rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  color: rgba(70,73,76, 0.9);
+  text-align: justify;
 }
 
 .grid-item4 h5 {
@@ -119,4 +130,8 @@ a:hover .grid-item1, a:hover .grid-item2 {
   text-decoration: none;
   background-color: var(--blue);
   -webkit-transition: background-color 150ms linear 0ms;transition: background-color 150ms linear 0ms;
+}
+
+.wordBreak {
+  word-break: break-all;
 }

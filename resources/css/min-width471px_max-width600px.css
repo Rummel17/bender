@@ -14,9 +14,12 @@
   }
 
   p {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     text-align: center;
+  }
+  .hero p {
+    text-align: left;
   }
   #phonenumber {
     display: none;
@@ -84,10 +87,11 @@
 
   div.button{
   display: flex;
-  flex-flow: row;
-
+  flex-flow: column;
+  align-items: center;
   }
 
+
   button {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }

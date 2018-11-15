@@ -8,7 +8,7 @@ h1.hero-font {
   line-height: 1.2;
 }
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   line-height: 1.3;
   text-align: center;
   display: block;
@@ -16,9 +16,12 @@ h2 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 1.6;
   text-align: center;
+}
+.hero p {
+  text-align: left;
 }
 
 #phonenumber {
@@ -45,6 +48,7 @@ p {
 
 .hero {
   width:90%;
+  margin-top: 0;
 }
 
 .box {
@@ -83,7 +87,7 @@ align-items: center;
 }
 
 button {
-  font-size: .9rem;
+  font-size: 1.25rem;
 }
 
 .grid-item3 {
@@ -99,7 +103,21 @@ button {
   font-size: 1rem;
 }
 
+div.eupopup-buttons {
+  display: flex;
+  flex-flow: column;
+}
 
+.eupopup-closebutton {
+  font-size: 1.75rem;
+  margin: 3px;
+  border: none;
+}
+
+a.eupopup-closebutton:hover
+{
+  border: none;
+}
 
 
 }

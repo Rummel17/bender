@@ -26,7 +26,9 @@
     #phonenumber {
       display: none;
     }
-
+    #cars {
+      display: none;
+    }
     .main {
       background-color: white;
       padding: 0px 10px 0px 10px;
@@ -63,7 +65,11 @@
       padding: 0px 30px 30px 30px;
     }
 
-
+    div.button{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    }
     button {
       padding: 20px;
     }
